@@ -1,0 +1,94 @@
+/* styles.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #444;
+}
+#controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#search, #category-filter {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+#search:focus, #category-filter:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+li {
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+a.item-name {
+    font-weight: 600;
+    font-size: 1em;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+a.item-name:hover {
+    text-decoration: underline;
+}
+.category {
+    font-size: 0.85em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    align-self: flex-end;
+    color: #fff;
+}
+.category.Fruit { background: #ff8a80; }
+.category.Vegetable { background: #a5d6a7; }
+.category.Dairy { background: #ffe082; color: #6d4c41; }
+.category.Bakery { background: #d7ccc8; color: #5d4037; }
+.category.Beverage { background: #81d4fa; color: #0277bd; }
+.category.Meat { background: #ef9a9a; }
+.category.Snacks { background: #ffd54f; color: #bf360c; }
+.category.Frozen { background: #b3e5fc; color: #01579b; }
+.category.Produce { background: #c8e6c9; color: #1b5e20; }
+.category.Seafood { background: #80cbc4; color: #006064; }
+
+@media (max-width: 480px) {
+    #controls { flex-direction: column; }
+}
