@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Đóng gói list trong container riêng để tránh xung đột -->
+    <div id="list-lh" class="container">
         <h1>Danh sách Sản phẩm</h1>
-        <div id="controls">
-            <select id="category-filter">
+        <div id="controls-lh">
+            <select id="category-filter-lh">
                 <option value="all">Tất cả</option>
                 <option value="Fruit">Trái cây</option>
                 <option value="Vegetable">Rau củ</option>
@@ -22,10 +23,10 @@
                 <option value="Meat">Thịt cá</option>
                 <option value="Snacks">Đồ ăn nhẹ</option>
                 <option value="Frozen">Đông lạnh</option>
-                <option value="Produce">Produce</option>
+                <option value="Produce">Nông sản</option>
                 <option value="Seafood">Hải sản</option>
             </select>
-            <input type="text" id="search" placeholder="Tìm kiếm...">
+            <input type="text" id="search-lh" placeholder="Tìm kiếm...">
         </div>
         <ul id="itemList_LH"></ul>
     </div>
