@@ -1,91 +1,87 @@
 /* styles.css */
-/* Chỉ áp dụng cho #list-lh */
 #list-lh.container {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 1000px;
-    margin: auto;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 #list-lh h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #444;
 }
 #list-lh #controls-lh {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
-#list-lh #search-lh,
-#list-lh #category-filter-lh {
-    flex: 1;
-    padding: 10px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1em;
-    transition: border-color 0.3s;
+#list-lh #search-lh, #list-lh #category-filter-lh {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border-color 0.3s;
 }
-#list-lh #search-lh:focus,
-#list-lh #category-filter-lh:focus {
-    outline: none;
-    border-color: #007BFF;
-    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+#list-lh #search-lh:focus, #list-lh #category-filter-lh:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0,123,255,0.2);
 }
 #list-lh #itemList_LH {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 0;
+  margin: 0;
 }
 #list-lh #itemList_LH li {
-    background: #fff;
-    padding: 12px 16px;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 #list-lh #itemList_LH li:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 #list-lh .item-name {
-    font-weight: 600;
-    font-size: 1em;
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 6px;
 }
 #list-lh .item-name:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #list-lh .category {
-    font-size: 0.85em;
-    padding: 4px 8px;
-    border-radius: 4px;
-    text-transform: capitalize;
-    align-self: flex-end;
-    color: #fff;
+  font-size: 0.85em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: none;
+  align-self: flex-end;
+  color: #fff;
 }
-#list-lh .category.Fruit     { background: #ff8a80; }
-#list-lh .category.Vegetable { background: #a5d6a7; }
-#list-lh .category.Dairy     { background: #ffe082; color: #6d4c41; }
-#list-lh .category.Bakery    { background: #d7ccc8; color: #5d4037; }
-#list-lh .category.Beverage  { background: #81d4fa; color: #0277bd; }
-#list-lh .category.Meat      { background: #ef9a9a; }
-#list-lh .category.Snacks    { background: #ffd54f; color: #bf360c; }
-#list-lh .category.Frozen    { background: #b3e5fc; color: #01579b; }
-#list-lh .category.Produce   { background: #c8e6c9; color: #1b5e20; }
-#list-lh .category.Seafood   { background: #80cbc4; color: #006064; }
+/* Màu cho từng thể loại */
+#list-lh .category.KiemHiep         { background: #e57373; }
+#list-lh .category.TrinhTham        { background: #ba68c8; }
+#list-lh .category.LinhDi           { background: #7986cb; }
+#list-lh .category.XuyenKhong       { background: #4db6ac; }
+#list-lh .category.TamLyHoc         { background: #aed581; color: #33691e; }
+#list-lh .category.KyNangSong       { background: #ffd54f; color: #ff6f00; }
+#list-lh .category.QuanTri          { background: #90a4ae; color: #263238; }
+#list-lh .category.KinhTeTaiChinh   { background: #4fc3f7; color: #01579b; }
 
 @media (max-width: 480px) {
-    #list-lh #controls-lh { flex-direction: column; }
+  #list-lh #controls-lh { flex-direction: column; }
 }
