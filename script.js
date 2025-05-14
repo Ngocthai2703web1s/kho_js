@@ -36,8 +36,10 @@ const items = [
 ];
 
 function renderList(listItems) {
+  itemList.style.display = 'grid';
   itemList.innerHTML = '';
   listItems
+    .filter(item => item.url && item.url !== '#')
     .sort((a, b) => a.name.localeCompare(b.name, 'vi'))
     .forEach(item => {
       const li = document.createElement('li');
