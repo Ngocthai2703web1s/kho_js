@@ -67,6 +67,7 @@
   color: #333;
   text-decoration: none;
   margin-bottom: 6px;
+  cursor: pointer;
 }
 #list-lh .item-name:hover {
   text-decoration: underline;
