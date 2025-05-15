@@ -35,7 +35,7 @@
 #list-lh #itemList_LH {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(217px, 1fr));
   gap: 15px;
   padding: 0;
   margin: 0;
@@ -53,6 +53,13 @@
 #list-lh #itemList_LH li:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+#list-lh .item-image {
+  width: 217px;
+  height: 309px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 #list-lh .item-name {
   font-weight: 600;
