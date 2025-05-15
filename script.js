@@ -17,22 +17,11 @@ const categoryLabels = {
 };
 
 const items = [
-  { name: 'Item A', category: 'KiemHiep', url: '#' },
-  { name: 'Item B', category: 'TrinhTham', url: '#' },
-  { name: 'Item C', category: 'LinhDi', url: '#' },
-  { name: 'Item D', category: 'XuyenKhong', url: '#' },
-  { name: 'Item E', category: 'TamLyHoc', url: '#' },
-  { name: 'Item F', category: 'KyNangSong', url: '#' },
-  { name: 'Item G', category: 'QuanTri', url: '#' },
-  { name: 'Item H', category: 'KinhTeTaiChinh', url: '#' },
-  { name: 'Item A', category: 'KiemHiep', url: '#' },
-  { name: 'Item B', category: 'TrinhTham', url: '#' },
-  { name: 'Item C', category: 'LinhDi', url: '#' },
-  { name: 'Item D', category: 'XuyenKhong', url: '#' },
-  { name: 'Item E', category: 'TamLyHoc', url: '#' },
-  { name: 'Item F', category: 'KyNangSong', url: '#' },
-  { name: 'Item G', category: 'QuanTri', url: '#' },
-  { name: 'Item H', category: 'KinhTeTaiChinh', url: '#' }
+  { name: 'Án Mạng Trong Vô Thức - Melinda Leigh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1-FZlXmOZBcNKDmGDjThqt6GVwk6ruBee/view?usp=drive_link' },
+  { name: 'Hồ Sơ Tâm Lý Tội Phạm Tập 1 - Cương Tuyết Ấn', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1-fHwKS_F1qbK2m_LclwjE3uRaEOo2krN/view?usp=drive_link' },
+  { name: 'Hồ Sơ Tâm Lý Tội Phạm Tập 2 - Cương Tuyết Ấn', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1-MZmm5tXlHtT7c1f0CUxSjjSQKQ27Tn-/view?usp=drive_link' },
+  { name: 'Trộm Mệnh Đôi Cá Âm Dương Tập 1 – Du Hồn Nhập Mộng', category: 'LinhDi', url: 'https://drive.google.com/file/d/103pJxPUnmsSg10biQc_VjxITxw2JmZ3p/view?usp=drive_link' },
+  { name: 'Trộm Mệnh Lư Hương Ngư VănTập 2 – Chu Sa Chỉ Lối', category: 'LinhDi', url: 'https://drive.google.com/file/d/10XHuhPYu6CT3kt7l0yVC40CKuM5Fj_49/view?usp=drive_link' }
 ];
 
 function renderList(listItems) {
