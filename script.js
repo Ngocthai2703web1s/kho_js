@@ -22,7 +22,11 @@ const items = [
   { name: 'Hồ Sơ Tâm Lý Tội Phạm Tập 2 - Cương Tuyết Ấn', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1-MZmm5tXlHtT7c1f0CUxSjjSQKQ27Tn-/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cover-59.jpg' },
   { name: 'Trộm Mệnh Đôi Cá Âm Dương Tập 1 – Du Hồn Nhập Mộng', category: 'LinhDi', url: 'https://drive.google.com/file/d/103pJxPUnmsSg10biQc_VjxITxw2JmZ3p/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/doi-ca-am-duong-du-hon-nhap-mong-nhat-mai-dong-tien-han-vu-phi-dich.jpg' },
   { name: 'Trộm Mệnh Lư Hương Ngư VănTập 2 – Chu Sa Chỉ Lối', category: 'LinhDi', url: 'https://drive.google.com/file/d/10XHuhPYu6CT3kt7l0yVC40CKuM5Fj_49/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/trom-menh-nhat-mai-dong-tien.jpg' },
-  { name: 'Minh Hôn Với Quỷ - Ninh Thư', category: 'LinhDi', url: 'https://drive.google.com/file/d/10fiMsCNag-MAPUrivAnO1n50n8mqekN9/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/minh-hon-voi-quy-ninh-thu.jpg' }
+  { name: 'Minh Hôn Với Quỷ - Ninh Thư', category: 'LinhDi', url: 'https://drive.google.com/file/d/10fiMsCNag-MAPUrivAnO1n50n8mqekN9/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/minh-hon-voi-quy-ninh-thu.jpg' },
+  { name: 'Bảo Tàng Sơn Hải - Đạo Môn Lão Cửu', category: 'LinhDi', url: 'https://drive.google.com/file/d/117mVN_h-8pV0H14pigwPGV-uJZyqeO26/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/bao-tang-son-hai-dao-mon-lao-cuu.jpg' },
+  { name: 'Người Vớt Xác - Trần Thập Tam', category: 'LinhDi', url: 'https://drive.google.com/file/d/11HqzVCS2hK-VarhAfei0vPAsIFy8ceXV/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/nguoi-vot-xac-tran-thap-tam.jpg' },
+  { name: '14 Ngày Đẫm Máu - Jeremy Bates', category: 'LinhDi', url: 'https://drive.google.com/file/d/11VTRuL-bnti1aNJK8nE31A83pj0nrb0d/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cover-9.jpg' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
 
 function renderList(listItems) {
