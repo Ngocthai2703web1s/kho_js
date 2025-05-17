@@ -26,6 +26,11 @@ const items = [
   { name: 'Bảo Tàng Sơn Hải - Đạo Môn Lão Cửu', category: 'LinhDi', url: 'https://drive.google.com/file/d/117mVN_h-8pV0H14pigwPGV-uJZyqeO26/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/bao-tang-son-hai-dao-mon-lao-cuu.jpg' },
   { name: 'Người Vớt Xác - Trần Thập Tam', category: 'LinhDi', url: 'https://drive.google.com/file/d/11HqzVCS2hK-VarhAfei0vPAsIFy8ceXV/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/nguoi-vot-xac-tran-thap-tam.jpg' },
   { name: '14 Ngày Đẫm Máu - Jeremy Bates', category: 'LinhDi', url: 'https://drive.google.com/file/d/11VTRuL-bnti1aNJK8nE31A83pj0nrb0d/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cover-9.jpg' },
+  { name: 'Người Điều Khiển Mê Cung - Donato Carrisi', category: 'TrinhTham', url: 'https://drive.google.com/file/d/11lz9IEo1NLnzvTLHKxLEyLZxEmV41ziX/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/Nguoi-Dieu-Khien-Me-Cung.jpg' },
+  { name: '19 Năm Mưu Sát – Tập 1 - Na Đa', category: 'TrinhTham', url: 'https://drive.google.com/file/d/128__YnQSmnZd_CtAQ0B3PFbeLpoXBzVn/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/07/19-Nam-Muu-Sat-Tap-1.jpg' },
+  { name: '19 Năm Mưu Sát – Tập 2 - Na Đa', category: 'TrinhTham', url: 'https://drive.google.com/file/d/12RJjlpI9uEfy44XXdEHRyaHZGVjNfYID/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/08/19-Nam-Muu-Sat-Tap-2.jpg' },
+  { name: 'Trái Tim Của Quỷ - Mahokaru Numata', category: 'TrinhTham', url: '#', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/08/Trai-Tim-Cua-Quy.jpg' },
+  { name: 'Tội Ác Sau Những Bức Tranh của tác giả Jason Rekulak', category: 'TrinhTham', url: 'https://drive.google.com/file/d/12p5S6y9GDmfgIKMsTjrjxeSiDGixVTfq/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/08/Toi-Ac-Sau-Nhung-Buc-Tranh.jpg' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
 
