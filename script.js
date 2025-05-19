@@ -35,7 +35,20 @@ const items = [
   { name: 'Người Gác Đêm 1 - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13Q9kk4iwhHwlvjIzkCHWB28wLh4uuqdv/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-gac-dem-tan-minh.jpg' },
   { name: 'Người Gác Đêm 2 - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13dAZ-ngvy4pqmX83xr7osmYIt-1xJBae/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-gac-dem-tap-2-tan-minh-trang-duong-dich.jpg' },
   { name: 'Người Gác Đêm 3 - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13gktTTi4qCMVvgmOKNf2Yf1_AVx0DdYv/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-gac-dem-tap-3-tan-minh-nguyen-quynh-trang-dich.jpg' },
-  { name: 'Người Gác Đêm 4 - Đại Kết Cục - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13pgn5u_cm0LUpT9VHWVETW5FoYTjx-Ap/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/05/Nguoi-Gac-Dem-tap-4.jpg' }
+  { name: 'Người Gác Đêm 4 - Đại Kết Cục - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13pgn5u_cm0LUpT9VHWVETW5FoYTjx-Ap/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/05/Nguoi-Gac-Dem-tap-4.jpg' },
+  { name: 'Pháp y Tần Minh 1 Người Giải Mã Tử Thi - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13Q9kk4iwhHwlvjIzkCHWB28wLh4uuqdv/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/36721769162_bd85043a29_o.jpg' },
+  { name: 'Pháp y Tần Minh 2 Lời Tố Cáo Thầm Lặng - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14CJMmkg1spj0Hv8_4EtAjmlEHzhhAv8Q/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/39352622462_80b8275e2c_o.jpg' },
+  { name: 'Pháp y Tần Minh 3 Ngón Tay Thứ Mười Một - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14Jh91HV3cnISfCrziQJjrWhx1ai7frTm/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/39352622382_01de8ec01f_o.jpg' },
+  { name: 'Pháp y Tần Minh 4 Kẻ Dọn Rác - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14R2qlqcECZ41E78FWlLeWOZD89YkvyBT/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/ke-don-rac-tan-minh.jpg' },
+  { name: 'Pháp y Tần Minh 5 Người Sống Sót - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14lgIkSEb6wH6g6IkZL10A6LEQN4amq3S/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-song-sot-tan-minh.jpg' },
+  { name: 'Pháp y Tần Minh 6 Kẻ Nhìn Trộm - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14qR7YGFEdAzIdphD72njKurpm-uPmkmW/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/ke-nhin-trom-tan-minh.jpg' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
 
 function renderList(listItems) {
