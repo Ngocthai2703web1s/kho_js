@@ -13,7 +13,7 @@ const categoryLabels = {
   TamLyHoc: 'Tâm Lý Học',
   KyNangSong: 'Kỹ Năng Sống',
   QuanTri: 'Quản Trị',
-  KinhTeTaiChinh: 'Kinh Tế - Tài Chính'
+  KinhTeTaiChinh: 'Kinh Tế - Tài Chính',
   VienTuong: 'Viễn Tưởng'
 };
 
