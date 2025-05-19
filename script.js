@@ -14,6 +14,7 @@ const categoryLabels = {
   KyNangSong: 'Kỹ Năng Sống',
   QuanTri: 'Quản Trị',
   KinhTeTaiChinh: 'Kinh Tế - Tài Chính'
+  VienTuong: 'Viễn Tưởng'
 };
 
 const items = [
@@ -42,7 +43,7 @@ const items = [
   { name: 'Pháp y Tần Minh 4 Kẻ Dọn Rác - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14R2qlqcECZ41E78FWlLeWOZD89YkvyBT/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/ke-don-rac-tan-minh.jpg' },
   { name: 'Pháp y Tần Minh 5 Người Sống Sót - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14lgIkSEb6wH6g6IkZL10A6LEQN4amq3S/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-song-sot-tan-minh.jpg' },
   { name: 'Pháp y Tần Minh 6 Kẻ Nhìn Trộm - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14qR7YGFEdAzIdphD72njKurpm-uPmkmW/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/ke-nhin-trom-tan-minh.jpg' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: 'Trạm Tín Hiệu Số 23 - Hugh Howey', category: 'VienTuong', url: 'https://drive.google.com/file/d/154IH0DIngw40ezFGcifM1a5KrazYiw4c/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/04/Tram-Tin-Hieu-So-23.jpg' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
