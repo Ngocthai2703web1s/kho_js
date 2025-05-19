@@ -89,6 +89,7 @@
 #list-lh .category.KyNangSong       { background: #ffd54f; color: #ff6f00; }
 #list-lh .category.QuanTri          { background: #90a4ae; color: #263238; }
 #list-lh .category.KinhTeTaiChinh   { background: #4fc3f7; color: #01579b; }
+#list-lh .category.VienTuong        { background: #2fd119; color: #f005b5; }
 
 @media (max-width: 480px) {
   #list-lh #controls-lh { flex-direction: column; }
