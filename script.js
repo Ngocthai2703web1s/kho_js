@@ -44,11 +44,11 @@ const items = [
   { name: 'Pháp y Tần Minh 5 Người Sống Sót - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14lgIkSEb6wH6g6IkZL10A6LEQN4amq3S/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/nguoi-song-sot-tan-minh.jpg' },
   { name: 'Pháp y Tần Minh 6 Kẻ Nhìn Trộm - Tần Minh', category: 'TrinhTham', url: 'https://drive.google.com/file/d/14qR7YGFEdAzIdphD72njKurpm-uPmkmW/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2023/12/ke-nhin-trom-tan-minh.jpg' },
   { name: 'Trạm Tín Hiệu Số 23 - Hugh Howey', category: 'VienTuong', url: 'https://drive.google.com/file/d/154IH0DIngw40ezFGcifM1a5KrazYiw4c/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/04/Tram-Tin-Hieu-So-23.jpg' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: 'Thú Trấn Mộ - Sái Tuấn', category: 'LinhDi', url: 'https://drive.google.com/file/d/1Y5ZBrC8WmHVLo1Uwk2IatlkTsJTZXSso/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/thu-tran-mo-sai-tuan.jpg' },
+  { name: 'Cái Chết Của Những Xác Sống – Tập 1 - Masaya Yamaguchi', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1uu4uA9dFsg21cZBKZM_7OLeBvLHj06fe/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cai-chet-cua-nhung-xac-song-tap-1-masaya-yamaguchi-trinh-thanh-tam-dich.jpg' },
+  { name: 'Cái Chết Của Những Xác Sống – Tập 2 - Masaya Yamaguchi', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1c69v2lffrcVQIxmnTVgi6ZODq0SEI44u/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cai-chet-cua-nhung-xac-song-tap-2-masaya-yamaguchi-vo-phuong-ngan-dich.jpg' },
+  { name: 'Đừng Bao Giờ Nói Dối - Freida McFadden', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1qzDDLfnM-0iU6YTYLHuTeyj67JIbumSm/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cover.jpg' },
+  { name: 'Núi Chuột Quét - Hô Diên Vân', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1pjxxcmFzBsVY9N16CnG6Qehxf6Tn-K2Y/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/Nui-Chuot-Quet.jpg' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
 
