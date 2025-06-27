@@ -49,6 +49,13 @@ const items = [
   { name: 'Cái Chết Của Những Xác Sống – Tập 2 - Masaya Yamaguchi', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1c69v2lffrcVQIxmnTVgi6ZODq0SEI44u/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cai-chet-cua-nhung-xac-song-tap-2-masaya-yamaguchi-vo-phuong-ngan-dich.jpg' },
   { name: 'Đừng Bao Giờ Nói Dối - Freida McFadden', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1qzDDLfnM-0iU6YTYLHuTeyj67JIbumSm/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/04/cover.jpg' },
   { name: 'Núi Chuột Quét - Hô Diên Vân', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1pjxxcmFzBsVY9N16CnG6Qehxf6Tn-K2Y/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/Nui-Chuot-Quet.jpg' },
+  { name: 'Hung Trạch - Tập 2 - Hô Diên Vân', category: 'LinhDi', url: 'https://drive.google.com/file/d/127wshM9-lJIQzID4zgPC_F-H58NGWuWc/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/hung-trach-tap-2-ho-dien-van-tu-huynh-dich.jpg' },
+  { name: 'Hung Trạch - Tập 1 - Hô Diên Vân', category: 'LinhDi', url: 'https://drive.google.com/file/d/1Z-sl5xT06Wl2S8OKr0WIV_e-quK1D7Fe/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/hung-trach-tap-1-ho-dien-van-tu-huynh-dich.jpg' },
+  { name: 'Những Vụ Án Kỳ Bí - Diêm Bắc Lão Cửu', category: 'TrinhTham', url: 'https://drive.google.com/file/d/13FXm65ko2tP7z4-jYil9T2kDHHC_yLPT/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/08/nhung-vu-an-ky-bi-diem-bac-lao-cuu.jpg' },
+  { name: 'Tội Ác Sau Những Bức Tranh - Jason Rekulak', category: 'TrinhTham', url: 'https://drive.google.com/file/d/131Rw_QjjRjVXSivtZyEAOVEBzQxPLslU/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/08/Toi-Ac-Sau-Nhung-Buc-Tranh.jpg' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
 
