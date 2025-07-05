@@ -51,8 +51,8 @@ const items = [
   { name: 'Núi Chuột Quét - Hô Diên Vân', category: 'TrinhTham', url: 'https://drive.google.com/file/d/1pjxxcmFzBsVY9N16CnG6Qehxf6Tn-K2Y/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/Nui-Chuot-Quet.jpg' },
   { name: 'Hung Trạch - Tập 2 - Hô Diên Vân', category: 'LinhDi', url: 'https://drive.google.com/file/d/127wshM9-lJIQzID4zgPC_F-H58NGWuWc/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/02/hung-trach-tap-2-ho-dien-van-tu-huynh-dich.jpg' },
   { name: 'Hung Trạch - Tập 1 - Hô Diên Vân', category: 'LinhDi', url: 'https://drive.google.com/file/d/1Z-sl5xT06Wl2S8OKr0WIV_e-quK1D7Fe/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/12/hung-trach-tap-1-ho-dien-van-tu-huynh-dich.jpg' },  
-  { name: 'Biến Mọi Thứ Thành Tiền - Nguyễn Anh Dũng', category: 'KinhTeTaiChinh', url: 'https://drive.google.com/file/d/19cQ2Bj46QmjoxYErN2R1NvC3JkDDulz-/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/04/Bien-Moi-Thu-Thanh-Tien.jpg' },
-  { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
+  { name: 'Biến Mọi Thứ Thành Tiền - Nguyễn Anh Dũng', category: 'KinhTeTaiChinh', url: 'https://drive.google.com/file/d/1g-L7AEgCYGdnNP52I6LXenmgHoxttryQ/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2024/04/Bien-Moi-Thu-Thanh-Tien.jpg' },
+  { name: 'Mô Hình Chất Lượng Dịch Vụ Trong Bán Lẻ - TS. Đào Xuân Khương', category: 'KinhTeTaiChinh', url: 'https://drive.google.com/file/d/1kRzH9cOzo99TZFZJZs6SjWZ5sKcOUAfG/view?usp=drive_link', imageUrl: 'https://ebookvie.com/wp-content/uploads/2025/06/mo-hinh-chat-luong-dich-vu-trong-ban-le-ts-dao-xuan-khuong.jpg' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' },
   { name: '#', category: 'LinhDi', url: '#', imageUrl: '#' }
 ];
