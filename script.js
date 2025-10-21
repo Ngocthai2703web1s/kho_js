@@ -1,4 +1,4 @@
-// script.js
+  // script.js
 const container = document.getElementById('list-lh');
 const searchInput = container.querySelector('#search-lh');
 const categoryFilter = container.querySelector('#category-filter-lh');
