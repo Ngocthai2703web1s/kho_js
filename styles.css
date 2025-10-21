@@ -1,4 +1,4 @@
-/* styles.css */
+  /* styles.css */
 #list-lh.container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  min-height: 400px; /* Đảm bảo chiều cao tối thiểu đồng nhất */
 }
 #list-lh #itemList_LH li:hover {
   transform: translateY(-2px);
@@ -68,6 +69,7 @@
   text-decoration: none;
   margin-bottom: 6px;
   cursor: pointer;
+  flex-grow: 1; /* Chiếm không gian còn lại */
 }
 #list-lh .item-name:hover {
   text-decoration: underline;
@@ -79,6 +81,7 @@
   text-transform: none;
   align-self: flex-end;
   color: #fff;
+  margin-top: auto; /* Đẩy thể loại xuống dưới cùng */
 }
 /* Màu cho từng thể loại */
 #list-lh .category.KiemHiep         { background: #e57373; }
@@ -93,4 +96,5 @@
 
 @media (max-width: 480px) {
   #list-lh #controls-lh { flex-direction: column; }
+  #list-lh #itemList_LH li { min-height: 380px; } /* Điều chỉnh cho màn hình nhỏ */
 }
