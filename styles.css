@@ -1,4 +1,4 @@
-  /* styles.css */
+    /* styles.css */
 #list-lh.container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
@@ -61,6 +61,7 @@
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 10px;
+  background-color: #f5f5f5;
 }
 #list-lh .item-name {
   font-weight: 600;
@@ -83,7 +84,7 @@
   color: #fff;
   margin-top: auto;
 }
-/* Màu cho từng thể loại */
+/* Màu cho từng thể loại - ĐÃ SỬA LỖI MÀU VIỄN TƯỞNG */
 #list-lh .category.KiemHiep         { background: #e57373; }
 #list-lh .category.TrinhTham        { background: #ba68c8; }
 #list-lh .category.LinhDi           { background: #7986cb; }
@@ -92,7 +93,15 @@
 #list-lh .category.KyNangSong       { background: #ffd54f; color: #ff6f00; }
 #list-lh .category.QuanTri          { background: #90a4ae; color: #263238; }
 #list-lh .category.KinhTeTaiChinh   { background: #4fc3f7; color: #01579b; }
-#list-lh .category.VienTuong        { background: #2fd119; color: #f005b5; }
+#list-lh .category.VienTuong        { background: #2fd119; color: #ffffff; } /* ĐÃ SỬA MÀU CHỮ */
+
+#list-lh .no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+}
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {
