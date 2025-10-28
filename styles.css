@@ -93,7 +93,8 @@
 #list-lh .category.KyNangSong       { background: #ffd54f; color: #ff6f00; }
 #list-lh .category.QuanTri          { background: #90a4ae; color: #263238; }
 #list-lh .category.KinhTeTaiChinh   { background: #4fc3f7; color: #01579b; }
-#list-lh .category.VienTuong        { background: #2fd119; color: #ffffff; } /* ĐÃ SỬA MÀU CHỮ */
+#list-lh .category.VienTuong        { background: #2fd119; color: #ffffff; }
+#list-lh .category.TieuThuyet       { background: #aed581; color: #33691e; }
 
 #list-lh .no-results {
   grid-column: 1 / -1;
